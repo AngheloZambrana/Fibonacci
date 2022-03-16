@@ -1,0 +1,14 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Fibonacci<i> {
+    int a, b = 0, c= 1;
+    Fibonacci a = new Fibonacci(15);
+    for(i=0;i<a.lenght;i++) {
+        a = b + c;
+        b = c;
+
+        System.out.println(a.getResult());
+    }
+}
